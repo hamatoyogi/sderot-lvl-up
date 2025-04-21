@@ -1,0 +1,16 @@
+{
+  "name": "sderot-level-up",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\"",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
